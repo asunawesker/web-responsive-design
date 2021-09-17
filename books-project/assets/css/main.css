@@ -32,7 +32,7 @@ body,html {
 }
 
 .content{
-    max-width: 96rem;
+    max-width: 150rem;
     max-height: 80vh;
     width: 100%;
     background: #485563; 
@@ -91,12 +91,15 @@ td{
 td:nth-child(1){
     font-size: 3rem;
 }
+td:nth-child(4){
+    font-size: 1.5rem;
+}
 
 @media(min-width: 900px) {
     .content{
         overflow: hidden;
+        padding: 2rem;
     }
-
     th{
         display: table-cell;    
     }    
@@ -107,6 +110,10 @@ td:nth-child(1){
     td:nth-child(1){
         font-size: 2rem;
     }
+    td:nth-child(4){
+        font-size: 2rem;
+    }
+    
 }
 
 .number{
